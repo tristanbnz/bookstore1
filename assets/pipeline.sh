@@ -9,8 +9,8 @@ echo 'Comment check passed'
 #npm install
 npm run build
 
-echo -e "Enter commit message: "
-read message
-git add .
-git commit -m "$message"
-git push
+#echo -e "Enter commit message: "
+#read message
+#git add .
+#git commit -m "$message"
+#git push

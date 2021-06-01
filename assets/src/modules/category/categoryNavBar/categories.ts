@@ -1,3 +1,6 @@
+//Tristan Brynildsen 1348237
+
+
 export const categories = {
   cooks: "Cookbooks",
   database: "Database",

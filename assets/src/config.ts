@@ -1,3 +1,5 @@
+//Tristan Brynildsen 1348237
+
 export default {
   apiGateway: {
     REGION: "us-east-1",
