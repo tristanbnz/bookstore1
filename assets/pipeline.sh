@@ -1,10 +1,12 @@
 #!/bin/bash
 
-if [ $(python3 StaticCheck.py) = 0 ]; then
+if [ $(python StaticCheck.py) = 0 ]; then
     echo 'Comments not present'
     exit 2
 fi
 echo 'Comment check passed'
+
+npm run test --forceExit
 
 #npm install
 npm run build
